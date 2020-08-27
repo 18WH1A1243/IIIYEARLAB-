@@ -13,4 +13,4 @@
 #output:
 
 
-![output](output.png)
+![output](output.jpg)
