@@ -13,4 +13,4 @@
 #output:
 
 
-![output](cov3.jpg)
+![output](output.png)
