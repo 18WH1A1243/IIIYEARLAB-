@@ -2,7 +2,8 @@
 
 
 
-##AIM:
+##AIM: To implement the data link layer framing methods  character count
+ 
 
 ##PROCEDURE:
 1
