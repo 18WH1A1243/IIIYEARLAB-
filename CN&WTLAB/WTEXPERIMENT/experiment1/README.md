@@ -15,4 +15,4 @@
 #output:
 
 
-![output](regOutput.PNG)
+![output](register.PNG)
