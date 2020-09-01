@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number],input[type=date] {
+  width: 40%;
+  padding: 15px;
+  margin: 3px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus ,input[type=radio]:focus,input[type=date]:focus{
+  background-color: yellow;
+  outline: none;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 20%;
+}
+
+.container {
+  padding: 16px;
+  
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+body{
+
+ background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(11).jpg"); /* The image used */
+  /* Used if the image is unavailable */
+  /* You must set a specified height */
+  /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+</style>
+</head>
+<body>
+
+
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h2>Registration Form </h2>
+    
+    <hr>
+     
+    <label for="username"><b>UserName</b></label><br>
+    <input type="text" placeholder="Enter username" name="username" required><br>
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+    
+     <label for="mobileno"><b>Contact No</b></label><br>
+    <input type="number" placeholder="Enter your mobileno" name="mobileno" required><br>
+   
+     <label for="birthday"><b>Date of Birth:</b></label><br>
+      <input type="date" id="birthday" name="birthday"><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+<div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+
+</body>
+</html>
