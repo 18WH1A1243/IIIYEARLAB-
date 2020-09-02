@@ -2,7 +2,7 @@
 
 
 
-##AIM: To implement the data link layer framing methods  character count
+##AIM: To implement the data link layer framing methods  character count,bit stuffing,character stuffing
  
 
 ##PROCEDURE:
