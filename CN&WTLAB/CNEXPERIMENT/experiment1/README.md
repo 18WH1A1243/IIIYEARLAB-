@@ -15,3 +15,5 @@
 
 
 ![output](exp1.PNG)
+![output](bs.PNG)
+![output](cs.PNG)
