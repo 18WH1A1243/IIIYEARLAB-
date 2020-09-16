@@ -15,4 +15,6 @@
 #output:
 
 
+![output](home.PNG)
 ![output](register.PNG)
+![output](loginphoto.PNG)
